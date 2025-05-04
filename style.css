@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+
+body {
+    margin: 0;
+    height: 310vh;
+    background: linear-gradient(to bottom, #2c0f1f, #000000);
+
+}
+
+
+
+.main {
+    height: 80vh;
+    width: 93vw;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+    background-size: max(1200px, 100vw);
+    box-shadow: 0 8px 16px rgba(198, 196, 196, 0.1);
+    background-image: url("assets/images/TopImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.60;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 48%;
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
+
+.maintext :nth-child(1) {
+    font-family: sans-serif;
+    margin: 5%;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.logo {
+    width: 93vw;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 120px;
+    height: 80px;
+}
+
+.English {
+    height: 30px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    background-color: #13020b;
+    border: 1px solid whitesmoke;
+}
+
+.Sign {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+}
