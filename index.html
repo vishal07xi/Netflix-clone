@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
+    <link rel="icon" type="image/png" href="assets/images/logo1.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,7 +25,6 @@
             <a href="#" target="_blank">
                 <button class="Sign">Sign In</button>
             </a>
-
         </div>
 
     </nav>
@@ -35,10 +35,81 @@
 
         <div class="maintext">
             <span>Unlimited movies,TV shows and more</span>
-            <span>Starts at ₹149. Cancel at any time.</span>
-            <span>Starts at ₹149. Cancel at any time.</span>
+            <span id="not-hero">Starts at ₹149. Cancel at any time.</span>
+            <span id="bph">
+                Ready to watch? Enter your email to create or restart your membership.</span>
+
+            <div class="searchbox-getstarted">
+                <div id="email1">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <button id="getstarted">Get Started &nbsp;&nbsp;></button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="trending-section">
+        <h1>Trending Now</h1>
+    </div>
+    <div class="list-parent">
+
+        <li class="list">
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABacrCXMLlWnxdiRot_1CVyGD6wgDHKQ_Un4rWHti1kyYn7viDTwwAOgAiHQsjGPcJAG03oWbZQial66ECMr2QcsKy2bSmUTsKuUPqMvvUYdlk3rjCvrAoCLVzMDERFsoYammxSBZxvG_5E5IMvUov4Qd_e5JokYc7UKRFsdyyHK5ixS_2wEnT4gu-fOBF6LvdMOXtSbgIirS9gSA.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABbz0kAcGdZQhygXEroWoNO6dfAmkuW99U5H0pIK6qMjdLtNMubl-i575QrSJ6Fdl6QoCP7eXtKCe_G1hr4JuPZWfKJobXqNEkKqiwlHXRIPF7c-iyetKL9kFgqRlgjGIQKy47QtdIJlS8Kxn0_X_mjabBJiXqsgokkyYPZ3qBpN98YrLz-qdimb-U3Qwv15_0w40FsfSqNaTjBdh.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABRle22NBlr0-IcROZhzASPWgK_S2e-WAG5jx-Jcp_kzDmdK39dWulrS9eo2KBNYGmVxmKCh2voDOVZo3W9C2d5byh5ezBwfQpE33HkvxiAsQfalj2h-UONU46-SthdlEAlQ3rhcEYmynsJe8Kaca9O3TQQkwOm4_1U5VlDPpW-dc94mMpWUoe2pFsNTYuMjVU9C9Ku8sH35WlaC5.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABTNYgUpzLVlth7tn5W_mcgt9ndofJICNYx-AjX8AON_2VcaTwaM5ekc6Z8LhR8p-bRKXEfoAYBnvY9SDi-0WoNYS886hvBk6t2nT6Ops-B8X26OrlXicenyZQkFLFbThkqRodh56gnXDBS75c5s0.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABUvZLi1oCkl3wvkAiSpBp4o44mUaMSjBxIqo2osvtMCKSPuKL9PSfPZX21i_-V-igjzqz7pGPZzKvK_imK5F-on67p8ApPdVWAUolG494wy2umoYHf0_kseOuPG-a0RXKhKGGICLRBxdc6m-oWsv.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABVbt3iTO02SKgalhjz1TKcUFfwgBoiSyMi4OrGZs5r7eJAa7bt0bIdlJ9RavE5-mhwKQeMVC9RtkfJ3bPN8JuUfkhnlnA2vvt-1PGfOeKwQwDy8GmRq4u6ZnyhNc74M1OwRIufnJPsYNH5bx2ZD_.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABVjrLRhUd4sxt54Fc2JheAUH6H8LLaABtXs7BMTiUAY0XMjlDQ52iV2G2iP7P8d3kPeEPTqI_zAXmXfjFc3u-uD2z1uT6_lqu9o7LAT-F_A1UypkdlQ02cmcoML68nMCwZkETzaOMuM6js-5wL6q.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABW2KidTWhebW4zvk5AhlM2Yc92-vGpeGt_ZDWBNvUEOZbh64TXcHlr2u6oWXAs01wjeglmQ1B1h-w67jQxOcRey3eHkgxAuqJS91Sio_Hw02hM88NwpMKu2-yj6pz42DIaO21Bvw2RahYFz307L2.webp"
+                    alt=""></ul>
+            <ul class="movie-poster"><img
+                    src="assets/images/AAAABWY2l29_Q4fcWvurVVPaQskEeybW5H-pz0CEcX59H0yDREVUcHOPdlpKjhb-AXYmIFt8ae6097xK17E5IGOUfagQ-SJzJTwRc_lNWC_j0pRPan0IziFLF6c2APQ_i2xlNlvvar-fiNgYE0jhcgFW.webp"
+                    alt=""></ul>
+        </li>
+    </div>
+    <div class="reasons-heading">
+        <h1>More reasons to join</h1>
+    </div>
+
+    <div class="reasons">
+        <div class="reason">
+
+        </div>
+
+        <div class="reason">
+
+        </div>
+
+        <div class="reason">
+
+        </div>
+
+        <div class="reason">
+
         </div>
     </div>
+
+    <script src="script.js"></script>
+    
 </body>
 
 </html>
