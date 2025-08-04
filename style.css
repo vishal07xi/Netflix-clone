@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    height: 400vh;
+    height: 360vh;
     background: linear-gradient(to bottom, #2c0f1f, #000000);
 
 }
@@ -102,7 +102,7 @@ button,
     width: 60%;
     border-radius: 35px;
     background-color: #000000;
-    opacity: 0.7;
+    opacity: 0.5;
     border: none;
     box-sizing: border-box;
     display: flex;
@@ -118,6 +118,7 @@ button,
     opacity: 0.5;
     border-radius: 40px;
     border: none;
+
 }
 
 #getstarted {
@@ -125,9 +126,11 @@ button,
     width: 38%;
     border-radius: 35px;
     color: white;
-    font-size: 22px;
     background-color: red;
     border: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
 }
 
 #getstarted:hover {
@@ -259,10 +262,9 @@ button,
     height: 230px;
     width: 290px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(96, 91, 91, 0.4);
     box-sizing: border-box;
     z-index: 1;
-    box-sizing: border-box;
     padding: 10px 20px 10px 20px;
 
 }
@@ -276,12 +278,12 @@ button,
 
 
 .reason p {
-    font-weight:500;
+    font-weight: 500;
     font-size: 17px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.reason img{
+.reason img {
     width: 25%;
     height: 25%;
     margin-bottom: 10px;
@@ -289,4 +291,189 @@ button,
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.question-heading {
+    width: 30vw;
+    height: 32px;
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.question-heading h1 {
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.questions {
+    width: 85vw;
+    height: 68vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.question {
+    background-color: rgba(236, 224, 224, 0.1);
+    border-radius: 15px;
+    height: 4.5rem;
+    width: 80vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.question img {
+    font-weight: 500;
+    font-size: 18px;
+    height: 25px;
+}
+
+.default-ltr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 2vh;
+    height: 140px;
+    width: 60vw;
+}
+
+.default-ltr span {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.default-ltr-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-around;
+}
+
+.default-ltr-buttons :nth-child(1) {
+    font-family: sans-serif;
+    padding: 0px;
+    padding-left: 0px;
+    width: 55%;
+    height: 55px;
+    font-size: small;
+    background-color: rgba(95, 88, 88, 0.4);
+    border-radius: 40px;
+    border: none;
+}
+
+.default-ltr-buttons :nth-child(1)::placeholder {
+    color: #cec5c5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 20px;
+}
+
+.default-ltr-buttons :nth-child(2) {
+    height: 100%;
+    width: 38%;
+    border-radius: 35px;
+    color: white;
+    font-size: 22px;
+    background-color: red;
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.default-ltr-buttons :nth-child(2):hover {
+    background-color: rgb(227, 17, 17);
+}
+
+.qcall {
+    height: 10vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.qcall span,
+a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.imp-links {
+    height: 25vh;
+    width: 70vw;
+    margin: auto;
+    margin-right: 19.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.imp-links a {
+    color: #a6a3a3;
+}
+
+.lan-select select {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #13020b;
+    margin-left: 9.5vw;
+    margin-top: 5vh;
+    border-radius: 40px;
+    border: 1 solid rgb(255, 255, 255);
+    height: 5vh;
+    width: 9vw;
+    padding-left: 10px;
+}
+
+.nef-in h4 {
+    color: #a6a3a3;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 9.5vw;
+    margin-top: 5vh;
+}
+
+.nef-capt {
+    margin-top: 5vh;
+    margin-left: 9.5vw;
+    width: 35vw;
+}
+
+#cap {
+    color: #a6a3a3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#learn {
+    color: #448ef4;
+    font-size: 13px;
+    font-weight: 400;
 }
